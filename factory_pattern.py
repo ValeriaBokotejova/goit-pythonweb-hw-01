@@ -1,8 +1,5 @@
-import logging
+from logger import logger
 from abc import ABC, abstractmethod
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 class Vehicle(ABC):
